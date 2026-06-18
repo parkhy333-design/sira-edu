@@ -216,6 +216,8 @@ def format_sources(docs: list[dict[str, Any]]) -> str:
     lines = []
     for i, d in enumerate(docs, start=1):
         source = d.get("metadata", {}).get("source", "unknown")
-        snippet = re.sub(r"\s+", " ", d.get("text", ""))[:350]
+        snippet = d.get("text", "")
+        snippet = snippet.replace("\x00", " ")
+        snippet = re.sub(r"\s+", " ", snippet)[:350]
         lines.append(f"[{i}] {source}: {snippet}")
     return "\n".join(lines)
