@@ -1,0 +1,9 @@
+{
+  "documents": 4,
+  "chunks": 466,
+  "faiss_built": true,
+  "embedding_provider": "hash-demo",
+  "embedding_model": "text-embedding-3-small",
+  "chunks_path": "/app/generated/4506019/sira-edu/data/index/chunks.jsonl",
+  "message": "FAISS 벡터 인덱스와 청크 JSONL을 생성했습니다."
+}
