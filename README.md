@@ -1,6 +1,6 @@
-# 증권투자권유자문인력_선생님
+# 증투 선생님 5mini
 
-증권투자권유자문인력 선생님
+증투 선생님 5mini
 
 이 프로젝트는 AI Agent Builder Workshop에서 생성되었습니다. 업로드 문서는 `data/docs`, RAG 인덱스는 `data/index`, GraphRAG 아티팩트는 `data/graph`에 들어갑니다.
 
